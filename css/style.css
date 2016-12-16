@@ -1,0 +1,73 @@
+h1{
+text-align: center;
+}
+p{
+font-size: 30px;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!TOP!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+#buttons{
+    text-align: center;
+    background: radial-gradient(white,black);
+    padding: 20px;
+}
+.button{
+    
+  width:150px;
+  border-radius: 50px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 30px;
+  background: rgba(38, 38, 1, 0.17);
+  margin-left: 100px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.1)));
+}
+.button:hover{
+cursor:pointer;
+color: black;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!BODY!!!!!!!!!!!!!!!!!!!!*/
+
+#Main{
+    width: 100%;
+    background: url(../images/background.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+   
+}
+#title{
+     background: radial-gradient(black,black,grey,white,white,white);
+    
+    );
+    color: rgba(230, 230, 230, 0.68);
+    padding-top:150px;
+    float: right;
+    margin-right: 600px;
+    width: 750px;
+    height: 300px;
+    font-family: Allan;
+    font-size: 100px;
+    
+}
+.text{ 
+background-color: #b1b1b1;
+float: left;
+
+   
+}
+.pictures{
+   line-height: 0;
+    width: 300px;
+    transition: all .2s ease-out;
+    cursor: pointer;
+}
+.pictures:hover{
+    transform: scale(1.5);
+}
